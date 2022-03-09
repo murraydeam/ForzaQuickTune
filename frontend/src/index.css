@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary: #eeeeee;
   --primary_light: #ffffff;
   --primary_dark: #bcbcbc;
@@ -7,28 +7,12 @@
   --secondary_light: #eeffff;
   --secondary_dark: #8aacc8;
 
+} */
+
+.MuiSlider-root {
+  color: #20b2aa;
 }
 
-* {
-  background-color: var(--primary);
-}
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-header {
-  min-height: 100vh;
-  text-align: center;
-  font-size: 4vh;
+.MuiSlider-root:hover {
+  color: #2e8b57;
 }
