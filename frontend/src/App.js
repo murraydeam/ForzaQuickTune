@@ -1,18 +1,17 @@
-import Sliders from "./components/Sliders"
+import Sliders from "./components/Sliders";
 import Navbar from "./components/Navbar";
-import Drivetype from "./components/Drivetype"
+import Drivetype from "./components/Drivetype";
 
 function App() {
   return (
     <div className="Container">
-      <Navbar />
-      <Sliders />
-      <Drivetype />
-      
-      
-    
-      
-      
+      <div className="navbar">
+        <Navbar />
+      </div>
+      <div className="body">
+        <Sliders />
+        <Drivetype />
+      </div>
     </div>
   );
 }

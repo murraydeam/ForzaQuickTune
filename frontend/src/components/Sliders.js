@@ -1,13 +1,18 @@
 import * as React from "react";
-
 import Box from "@mui/material/Box";
 import Slider from "@mui/material/Slider";
+import MuiInput from '@mui/material/Input';
+import Typography from '@mui/material/Typography';
+import Grid from '@mui/material/Grid';
+
+
+
 
 
 export default function SliderSizes() {
   return (
     <div className="sliders">
-      <Box width={300}>
+      <Box width={400}>
         <div className="weight-slider">
           <h1>Weight Slider</h1>
           <Slider
