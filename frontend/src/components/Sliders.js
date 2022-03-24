@@ -1,39 +1,61 @@
 import * as React from "react";
+import { useState } from "react";
 import Box from "@mui/material/Box";
 import Slider from "@mui/material/Slider";
-import MuiInput from '@mui/material/Input';
-import Typography from '@mui/material/Typography';
-import Grid from '@mui/material/Grid';
-
-
-
-
+import TextField from "@mui/material/TextField";
+import "./styles.css"
 
 export default function SliderSizes() {
+  const [weight, setWeight] = useState(3200);
+  const [bias, setBias] = useState(60);
+
   return (
     <div className="sliders">
-      <Box width={400}>
         <div className="weight-slider">
-          <h1>Weight Slider</h1>
+            
+          
+          <h2>
+            Vehicle Weight (LBS)
+            <TextField
+              id="textWeight"
+              label="LBS"
+              type="number"
+              value={weight}
+              onChange={(e) => setWeight(e.target.value)}
+            />
+          </h2>
           <Slider
-            defaultValue={3200}
             min={1000}
             max={10000}
             aria-label="Default"
             valueLabelDisplay="auto"
+            value={weight}
+            onChange={(e) => setWeight(e.target.value)}
           />
         </div>
+
         <div className="bias-slider">
-          <h1>Bias Slider</h1>
+          <h2>
+            Weight Bis (%)
+            <TextField
+              id="textWeight"
+              label="LBS"
+              type="number"
+              value={bias}
+              onChange={(e) => setBias(e.target.value)}
+            />
+          </h2>
           <Slider
-            defaultValue={60}
             min={20}
             max={80}
             aria-label="Default"
             valueLabelDisplay="auto"
+            value={bias}
+            onChange={(e) => setBias(e.target.value)}
           />
+          
         </div>
-      </Box>
+      
     </div>
   );
 }
