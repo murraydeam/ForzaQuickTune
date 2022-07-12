@@ -1,14 +1,35 @@
 
+* 
 
-.weight-slider {
-    padding: 20
-    ;
-}
-.mastHead {
+.Header {
+    background-image: url(./assets/racecar.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: auto;
     height: 100vh;
-    
+    max-width: 100%;
 }
-.body {
+
+
+.Header button {
+   background-color: azure;
+   color: black;
+   margin-left: 15rem;
+   margin-top: 40rem;
+
+}
+
+.Header button:hover {
+    background-color: azure;
+}
+
+.Body {
     height: 100vh;
 }
+
+.Body h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
 

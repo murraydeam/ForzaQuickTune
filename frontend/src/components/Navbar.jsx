@@ -6,7 +6,6 @@ import CssBaseline from '@mui/material/CssBaseline';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import Header from './Header'
 
 interface Props {
   /**
@@ -48,8 +47,7 @@ export default function ElevateAppBar(props: Props) {
       </ElevationScroll>
       <Toolbar />
       <Container>
-        <Box sx={{ my: 4 }}>
-          <Header />
+        <Box sx={{ my: 0 }}>
         </Box>
       </Container>
     </React.Fragment>
