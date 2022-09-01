@@ -3,30 +3,18 @@
     flex-direction: column;
 }
 
-.Header {
+.header-content {
     display: flex;
-    background-image: url(./assets/racecar.jpeg);
+    background-image: url("./assets/racecar.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
-    max-width: 100%;
+    height: 80vh;
+    width: 100vw;
 }
 
-
-.Header button {
-   background-color: azure;
-   color: black;
-   margin-left: 15rem;
-   margin-top: 40rem;
-
-}
-
-.Header button:hover {
-    background-color: azure;
-}
 
 .Tune {
-    height: 100vh;
+    height: 80vh;
 }
 
 .Tune h1 {
