@@ -1,3 +1,14 @@
+:root {
+  --primary: #eeeeee;
+  --primary_light: #ffffff;
+  --primary_dark: #bcbcbc;
+  
+  --secondary: #bbdefb;
+  --secondary_light: #eeffff;
+  --secondary_dark: #8aacc8;
+
+}
+
 html {
     scroll-behavior: smooth;
 }
