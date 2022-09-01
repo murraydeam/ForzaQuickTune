@@ -1,3 +1,4 @@
+
 .Container {
     display: flex;
     flex-direction: column;
@@ -8,6 +9,8 @@
     background-image: url("./assets/racecar.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
+    justify-content: flex-end;
+    align-items: flex-end;
     height: 80vh;
     width: 100vw;
 }
@@ -30,6 +33,11 @@
 #Sliders h2 {
     display: flex;
     justify-content: center;
+    gap: 16px;
 }
 
+#down {
+    margin-top: 100%;
+    padding-bottom: 25%;
+}
 
