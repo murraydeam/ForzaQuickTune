@@ -1,11 +1,13 @@
-
-* 
+.Container {
+    display: flex;
+    flex-direction: column;
+}
 
 .Header {
+    display: flex;
     background-image: url(./assets/racecar.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: auto;
     height: 100vh;
     max-width: 100%;
 }
@@ -30,6 +32,16 @@
 .Body h1 {
     font-size: 60px;
     text-align: center;
+}
+
+#Sliders {
+    display: flex;
+    justify-content: center;
+}
+
+#Sliders h2 {
+    display: flex;
+    justify-content: center;
 }
 
 
