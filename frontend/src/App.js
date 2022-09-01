@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
-import Body from "./components/Body";
+import Tune from "./components/Tune";
 
 function App() {
   return (
@@ -11,8 +11,8 @@ function App() {
       <div className="Header">
         <Header />
       </div>
-      <div className="Body">
-        <Body />
+      <div className="Tune">
+        <Tune />
       </div>
     </div>
   );
