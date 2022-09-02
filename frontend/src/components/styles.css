@@ -34,6 +34,12 @@ a {
     width: 100vw;
 }
 
+.weightBias-calculation {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2.5rem;
+}
+
 
 .Tune {
     height: 80vh;

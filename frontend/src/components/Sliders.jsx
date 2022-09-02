@@ -8,7 +8,9 @@ import "./styles.css";
 export default function SliderSizes() {
   const [weight, setWeight] = useState(3200);
   const [bias, setBias] = useState(60);
-
+  const frontSpringRate = ((weight * (bias / 100)) / 2 * .68)
+  const rearSpringRate = ((weight * ((100 - bias) / 100)) / 2 * .68)
+  
   return (
     <Grid id="Sliders" container spacing={2}>
       <Grid id="weight-slider" item xs={6} md={8}>
@@ -55,16 +57,16 @@ export default function SliderSizes() {
         <div className="weightBias-calculation">
           <TextField
             id="outlined-read-only-input"
-            label="Front Bias"
-            value={weight * (bias / 100)}
+            label="Front Spring Rate"
+            value={frontSpringRate}
             InputProps={{
               readOnly: true,
             }}
           ></TextField>
           <TextField
             id="outlined-read-only-input"
-            label="Rear Bias"
-            value={weight * ((100-bias) / 100)}
+            label="Rear Spring Rate"
+            value={rearSpringRate}
             InputProps={{
               readOnly: true,
             }}
