@@ -8,9 +8,9 @@ import "./styles.css";
 export default function SliderSizes() {
   const [weight, setWeight] = useState(3200);
   const [bias, setBias] = useState(60);
-  const frontSpringRate = ((weight * (bias / 100)) / 2 * .68).toFixed(0)
-  const rearSpringRate = ((weight * ((100 - bias) / 100)) / 2 * .68).toFixed(0)
-  
+  const frontSpringRate = (((weight * (bias / 100)) / 2) * 0.68).toFixed(2); // The toFixed modifier is added to format the final number.
+  const rearSpringRate = (((weight * ((100 - bias) / 100)) / 2) * 0.68).toFixed(2);
+
   return (
     <Grid id="Sliders" container spacing={2}>
       <Grid id="weight-slider" item xs={6} md={8}>
