@@ -8,8 +8,8 @@ import "./styles.css";
 export default function SliderSizes() {
   const [weight, setWeight] = useState(3200);
   const [bias, setBias] = useState(60);
-  const frontSpringRate = ((weight * (bias / 100)) / 2 * .68)
-  const rearSpringRate = ((weight * ((100 - bias) / 100)) / 2 * .68)
+  const frontSpringRate = ((weight * (bias / 100)) / 2 * .68).toFixed(0)
+  const rearSpringRate = ((weight * ((100 - bias) / 100)) / 2 * .68).toFixed(0)
   
   return (
     <Grid id="Sliders" container spacing={2}>
