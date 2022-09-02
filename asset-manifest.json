@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ForzaQuickTune/static/css/main.69117710.css",
-    "main.js": "/ForzaQuickTune/static/js/main.2fe77391.js",
+    "main.css": "/ForzaQuickTune/static/css/main.67dd6804.css",
+    "main.js": "/ForzaQuickTune/static/js/main.d55085a7.js",
     "static/media/racecar.jpeg": "/ForzaQuickTune/static/media/racecar.05618a2c41307e0d2639.jpeg",
     "index.html": "/ForzaQuickTune/index.html",
-    "main.69117710.css.map": "/ForzaQuickTune/static/css/main.69117710.css.map",
-    "main.2fe77391.js.map": "/ForzaQuickTune/static/js/main.2fe77391.js.map"
+    "main.67dd6804.css.map": "/ForzaQuickTune/static/css/main.67dd6804.css.map",
+    "main.d55085a7.js.map": "/ForzaQuickTune/static/js/main.d55085a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.69117710.css",
-    "static/js/main.2fe77391.js"
+    "static/css/main.67dd6804.css",
+    "static/js/main.d55085a7.js"
   ]
 }
