@@ -54,6 +54,11 @@ export default function SliderSizes() {
           onChange={(e) => setBias(e.target.value)}
         />
 
+        <div className="springRateOutput" id="springRateOutput">
+
+        <h2>Below You will find the new find your custom spring rates.</h2>
+        <h3>This is a base tune, feel free to change the spring rates in 5% increments to get this matched to your driving style</h3>
+
         <div className="weightBias-calculation">
           <TextField
             id="outlined-read-only-input"
@@ -71,6 +76,7 @@ export default function SliderSizes() {
               readOnly: true,
             }}
           ></TextField>
+        </div>
         </div>
       </Grid>
     </Grid>
