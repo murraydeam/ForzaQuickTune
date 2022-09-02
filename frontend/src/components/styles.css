@@ -1,86 +1,84 @@
 :root {
-    --primary: #eeeeee;
-    --primary_light: #ffffff;
-    --primary_dark: #bcbcbc;
+  --primary: #eeeeee;
+  --primary_light: #ffffff;
+  --primary_dark: #bcbcbc;
 
-    --secondary: #bbdefb;
-    --secondary_light: #eeffff;
-    --secondary_dark: #8aacc8;
-
+  --secondary: #bbdefb;
+  --secondary_light: #eeffff;
+  --secondary_dark: #8aacc8;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .Container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .header-content {
-    display: flex;
-    background-image: url("./assets/racecar.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    justify-content: flex-end;
-    align-items: flex-end;
-    height: 80vh;
-    width: 100vw;
+  align-items: flex-end;
+  background-image: url("./assets/racecar.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 80vh;
+  justify-content: flex-end;
+  width: 100vw;
 }
 
 .weightBias-calculation {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 2.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2.5rem;
 }
 
-
 .Tune {
-    height: 80vh;
+  height: 80vh;
 }
 
 .Tune h1 {
-    font-size: 42px;
-    text-align: center;
+  font-size: 42px;
+  text-align: center;
 }
 
 #Sliders {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #Sliders h2 {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
 }
 
 #bias-slider {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 #springRateOutput {
-    margin-top: 32px;
+  margin-top: 32px;
 }
 
 #down {
-    margin-top: 100%;
-    padding-bottom: 25%;
+  margin-top: 100%;
+  padding-bottom: 25%;
 }
 
 #headerButton,
 #appBar {
-    background-color: darkcyan;
+  background-color: darkcyan;
 }
 
 #sliderColor {
-    color: darkcyan;
+  color: darkcyan;
 }
