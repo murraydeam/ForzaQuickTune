@@ -54,15 +54,12 @@ a {
   text-align: center;
 }
 
-
-
 #Sliders {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-left: 0;
-  
 }
 
 #Sliders h2 {
@@ -104,6 +101,7 @@ a {
 #bias-slider {
   max-width: 60rem;
   min-width: 15rem;
+  padding: 0;
 }
 
 #footer {
