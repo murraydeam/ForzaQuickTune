@@ -57,7 +57,7 @@ export default function SliderSizes() {
           value={bias}
           onChange={(e) => setBias(e.target.value)}
         />
-      </Grid>
+        </Grid>
       <div className="springRateOutput" id="springRateOutput">
         <h2>Below You will find the new find your custom spring rates.</h2>
         <h3>

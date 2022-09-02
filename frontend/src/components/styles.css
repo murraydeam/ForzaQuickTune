@@ -8,6 +8,10 @@
   --secondary_dark: #8aacc8;
 }
 
+body {
+  display: flex;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -41,7 +45,7 @@ a {
 }
 
 .Tune {
-  height: 80vh;
+  min-height: 80vh;
   padding: 0;
   margin: 0;
 }

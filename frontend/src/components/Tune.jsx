@@ -3,6 +3,7 @@ import { Container } from "@mui/material";
 import { Box } from "@mui/material";
 import Sliders from "./Sliders";
 
+
 const Tune = () => {
   return (
     <Container className="tune-content" id="Tune">
@@ -14,6 +15,7 @@ const Tune = () => {
       </Box>
       <Box sx={{ my: 12 }}>
         <Sliders />
+       
       </Box>
     </Container>
   );
