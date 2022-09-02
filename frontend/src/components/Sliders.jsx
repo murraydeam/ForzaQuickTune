@@ -9,7 +9,9 @@ export default function SliderSizes() {
   const [weight, setWeight] = useState(3200);
   const [bias, setBias] = useState(60);
   const frontSpringRate = (((weight * (bias / 100)) / 2) * 0.68).toFixed(2); // The toFixed modifier is added to format the final number.
-  const rearSpringRate = (((weight * ((100 - bias) / 100)) / 2) * 0.68).toFixed(2);
+  const rearSpringRate = (((weight * ((100 - bias) / 100)) / 2) * 0.68).toFixed(
+    2
+  );
 
   return (
     <Grid id="Sliders" container spacing={2}>
@@ -55,11 +57,13 @@ export default function SliderSizes() {
           value={bias}
           onChange={(e) => setBias(e.target.value)}
         />
-
-        <div className="springRateOutput" id="springRateOutput">
-
+      </Grid>
+      <div className="springRateOutput" id="springRateOutput">
         <h2>Below You will find the new find your custom spring rates.</h2>
-        <h3>This is a base tune, feel free to change the spring rates in 5% increments to get this matched to your driving style</h3>
+        <h3>
+          This is a base tune, feel free to change the spring rates in 5%
+          increments to get this matched to your driving style
+        </h3>
 
         <div className="weightBias-calculation">
           <TextField
@@ -79,8 +83,7 @@ export default function SliderSizes() {
             }}
           ></TextField>
         </div>
-        </div>
-      </Grid>
+      </div>
     </Grid>
   );
 }
