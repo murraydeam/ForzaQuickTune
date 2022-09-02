@@ -5,17 +5,13 @@ import Slider from "@mui/material/Slider";
 import TextField from "@mui/material/TextField";
 import "./styles.css";
 
-
-
-
 export default function SliderSizes() {
   const [weight, setWeight] = useState(3200);
   const [bias, setBias] = useState(60);
 
   return (
-    
     <Grid id="Sliders" container spacing={2}>
-      <Grid item xs={6} md={8}>
+      <Grid id="weight-slider" item xs={6} md={8}>
         <h2>
           Vehicle Weight (LBS)
           <TextField
@@ -33,11 +29,9 @@ export default function SliderSizes() {
           valueLabelDisplay="auto"
           value={weight}
           onChange={(e) => setWeight(e.target.value)}
-          
         />
-      
       </Grid>
-      <Grid item xs={6} md={8}>
+      <Grid id="bias-slider" item xs={6} md={8}>
         <h2>
           Weight Bias (%)
           <TextField
@@ -58,6 +52,24 @@ export default function SliderSizes() {
           onChange={(e) => setBias(e.target.value)}
         />
 
+        <div className="weightBias-calculation">
+          <TextField
+            id="outlined-read-only-input"
+            label="Front Bias"
+            value={weight * (bias / 100)}
+            InputProps={{
+              readOnly: true,
+            }}
+          ></TextField>
+          <TextField
+            id="outlined-read-only-input"
+            label="Rear Bias"
+            value={weight * ((100-bias) / 100)}
+            InputProps={{
+              readOnly: true,
+            }}
+          ></TextField>
+        </div>
       </Grid>
     </Grid>
   );
