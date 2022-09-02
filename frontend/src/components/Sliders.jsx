@@ -25,6 +25,7 @@ export default function SliderSizes() {
           />
         </h2>
         <Slider
+          id="sliderColor"
           min={1000}
           max={10000}
           aria-label="Default"
@@ -46,6 +47,7 @@ export default function SliderSizes() {
         </h2>
 
         <Slider
+          id="sliderColor"
           min={0}
           max={100}
           aria-label="Default"

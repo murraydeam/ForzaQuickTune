@@ -1,11 +1,11 @@
 :root {
-  --primary: #eeeeee;
-  --primary_light: #ffffff;
-  --primary_dark: #bcbcbc;
-  
-  --secondary: #bbdefb;
-  --secondary_light: #eeffff;
-  --secondary_dark: #8aacc8;
+    --primary: #eeeeee;
+    --primary_light: #ffffff;
+    --primary_dark: #bcbcbc;
+
+    --secondary: #bbdefb;
+    --secondary_light: #eeffff;
+    --secondary_dark: #8aacc8;
 
 }
 
@@ -76,3 +76,11 @@ a {
     padding-bottom: 25%;
 }
 
+#headerButton,
+#appBar {
+    background-color: darkcyan;
+}
+
+#sliderColor {
+    color: darkcyan;
+}
