@@ -8,6 +8,10 @@
   --secondary_dark: #8aacc8;
 }
 
+* {
+  scrollbar-color: #454a5d #202324;
+}
+
 body {
   display: flex;
 }
